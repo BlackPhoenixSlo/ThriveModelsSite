@@ -1881,6 +1881,39 @@ img{
 
 
 
+<style>
+
+  #background-video_second1{
+      display: none;
+       
+       
+        
+      }
+      #background-video_second{
+        display: block;
+      width: 100%;
+      }
+    @media screen and (max-width: 720px) {
+      #background-video_second1{
+      display: block;
+      width: 100%;
+       
+       
+        
+      }
+      #background-video_second{
+        display: none;
+      }
+    }
+    </style>
+                    <div class="sqs-video---player background_video">
+                      <video id="background-video_second" autoplay loop muted >
+                        <source src="videos/upwithlogo1.mp4" type="video/mp4">
+                        </video>
+                        <video id="background-video_second1" autoplay loop muted >
+                          <source src="videos/smallsize.mp4" type="video/mp4">
+                          </video>
+                    </div>
 
               <img alt=""
                 data-src="https://images.squarespace-cdn.com/content/v1/6259e47f70a62a14c3f906fb/b78af87a-093f-4a87-8dcb-b95a4dfc72b2/L1011286.jpeg"
@@ -1895,9 +1928,8 @@ img{
 
 
 
-              <div class="section-background-overlay" style="opacity: 1; position: absolute; top: 0; left: 0;"><video id="background-video" style="width: 100%;" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg" loading="lazy" >
-                <source src="videos/upwithlogo1.mp4" type="video/mp4" >
-                </video></div>
+
+              <div class="section-background-overlay" style="opacity: 0.05; position: absolute; top: 0; left: 0;"></div>
 
 
             </div>
@@ -2287,6 +2319,8 @@ img{
       &quot;divider&quot;: null,
       &quot;typeName&quot;: &quot;page&quot;
     }" data-animation="none" data-fluid-engine-section style="min-height: 15vh;">
+
+    
           <div class="section-border">
             <div class="section-background">
 
@@ -2340,19 +2374,52 @@ img{
       &quot;recordTypeLabel&quot;: &quot;sqsp-hosted-video&quot;
     }" data-config-playback-speed="1" data-config-filter="1" data-config-filter-strength="0">
 
-<style>
-  .background_video{
-    display: block;
-  }
-  .background_video video{
-width: 100%;
-  }
-</style>
-                  <div class="sqs-video--native__video-player background_video">
-                    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
-                      <source src="videos/upwithlogo.mp4" type="video/mp4">
-                      </video>
-                  </div>
+
+
+
+
+    <style>
+
+      #background-video_second1{
+          display: none;
+           
+           
+            
+          }
+          #background-video_second{
+            display: block;
+          }
+        @media screen and (max-width: 720px) {
+          #background-video_second1{
+          display: block;
+          height: auto;
+          width: 100%;
+          margin-top: -25px;
+           
+           
+            
+          }
+          #background-video_second{
+            display: none;
+          }
+        }
+        </style>
+                        <div class="sqs-video---player background_video">
+                          <video id="background-video_second" autoplay loop muted >
+                            <source src="videos/upwithlogo.mp4" type="video/mp4">
+                            </video>
+                            <video id="background-video_second1" autoplay loop muted >
+                              <source src="videos/smallsize.mp4" type="video/mp4">
+                              </video>
+                        </div>
+
+
+
+
+
+
+
+
                 </div>
 
               </div>
@@ -2365,7 +2432,7 @@ width: 100%;
       
         
           
-           padding-top: calc(15vmax / 5);
+           
         
       
     '>
