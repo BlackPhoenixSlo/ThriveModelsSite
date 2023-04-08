@@ -4,6 +4,17 @@
     
     font-family: 'Bebas Neue', 'bebas-neue', cursive !important;
 }
+
+.email{
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+}
+
+.email * {
+margin: 10px;
+}
+
         
         
         :root {

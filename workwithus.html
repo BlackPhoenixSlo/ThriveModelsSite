@@ -11,7 +11,7 @@
     <title>Work With Us &mdash; Thrive Models Agency</title>
     <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" />
     <link rel="shortcut icon" type="image/x-icon"
-        href="pictures/thrive white@1.5x (2).png" />
+        href="pictures/Icon@4x.png" />
     <link rel="canonical" href="https://www.thrivemodels.co/workwithus.html" />
     <meta property="og:site_name" content="Thrive Models Agency" />
     <meta property="og:title" content="Work With Us &mdash; Thrive Models Agency" />
@@ -346,28 +346,28 @@
                     "serviceId": 64,
                     "screenname": "Instagram",
                     "addedOn": 1650058368157,
-                    "profileUrl": "http://www.instagram.com/unrulyagency/",
+                    "profileUrl": "http://www.instagram.com/thrive.models/",
                     "iconEnabled": true,
                     "serviceName": "instagram-unauth"
                 }, {
                     "serviceId": 62,
                     "screenname": "Twitter",
                     "addedOn": 1650058368151,
-                    "profileUrl": "https://twitter.com/unrulyagency",
+                    "profileUrl": "https://twitter.com/thrive.models",
                     "iconEnabled": true,
                     "serviceName": "twitter-unauth"
                 }, {
                     "serviceId": 82,
                     "screenname": "TikTok",
                     "addedOn": 1658987256036,
-                    "profileUrl": "https://www.tiktok.com/@unrulyagency",
+                    "profileUrl": "https://www.tiktok.com/@thrivemodels",
                     "iconEnabled": true,
                     "serviceName": "tiktok-unauth"
                 }, {
                     "serviceId": 60,
                     "screenname": "Facebook",
                     "addedOn": 1669164355738,
-                    "profileUrl": "http://facebook.com/unrulyagency",
+                    "profileUrl": "http://facebook.com/thrivemodels",
                     "iconEnabled": true,
                     "serviceName": "facebook-unauth"
                 }],
@@ -712,8 +712,8 @@
             "address": "9200 Sunset Boulevard\nWest Hollywood, CA, 90069\nUnited States",
             "email": "info@unrulyagency.com",
             "telephone": "3101234567",
-            "sameAs": ["http://www.instagram.com/unrulyagency/", "https://twitter.com/unrulyagency",
-                "https://www.tiktok.com/@unrulyagency", "http://facebook.com/unrulyagency"
+            "sameAs": ["http://www.instagram.com/thrive.models/", "https://twitter.com/thrive.models",
+                "https://www.tiktok.com/@thrivemodels", "http://facebook.com/thrivemodels"
             ],
             "@context": "http://schema.org",
             "@type": "Organization"
@@ -1281,7 +1281,7 @@
 
 
 
-                                        <img src="pictures/thrive white@1.5x (2).png" alt="Thrive Models Agency">
+                                        <img src="pictures/Logo White@4x.png" alt="Thrive Models Agency">
 
 
                                     </a>
@@ -1454,7 +1454,7 @@
 
 
 
-                                        <img src="pictures/thrive white@1.5x (2).png" alt="Thrive Models Agency">
+                                        <img src="pictures/Logo White@4x.png" alt="Thrive Models Agency">
 
 
                                     </a>
@@ -2364,81 +2364,54 @@
   newsletter-form-wrapper--alignRight
   
   ">
-                                                        <form class="newsletter-form"
-                                                            data-form-id="62607dc241f51b375d95c602" autocomplete="on"
-                                                            method="POST" novalidate onsubmit="return (function (form) {
-    Y.use('squarespace-form-submit', 'node', function usingFormSubmit(Y) {
-      (new Y.Squarespace.FormSubmit(form)).submit({
-        formId: '62607dc241f51b375d95c602',
-        collectionId: '',
-        objectName: 'page-section-6259e48070a62a14c3f9074a'
+                                                        <form class="newsletter-form email" action="https://postmail.invotes.com/send"
+      method="post" id="email_forme">
+      <header class="newsletter-form-header">
+        <h2 class="newsletter-form-header-title">Reach out</h2>
+        <div class="newsletter-form-header-description">
+          <p>Sign up with your email address to receive news and updates.</p>
+        </div>
+      </header>
+  
+      <input type="text" name="subject" placeholder="Email" />
+      <textarea name="text" placeholder="Message (optional)"></textarea>
+      <input type="hidden" name="access_token" value="zark11wudixq4u5pcwanh5ho" />
+        <!-- return urls can be fully qualified -OR-
+           start with / for root relative -OR-
+           start with . for url relative --> 
+      <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+      <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+     
+  
+      <!-- set the reply-to address -->
+      <!-- <input type="text" name="reply_to"
+                  placeholder="Your Email" /> -->
+  
+      <!-- to append extra fields, use the extra_ prefix.
+          Entries will be appended to your message body. -->
+      <!-- <input type="text" name="extra_phone_number"
+                  placeholder="Phone Number" /> -->
+  
+      <!-- to split your message into 160 chars
+           for an sms gateway -->
+      <!-- <input type="hidden"
+                  name="sms_format" value="true" /> -->
+     
+      <input id="submit_form" type="submit" value="Send/Subscribe" />
+      <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+  </form>
+       
+  <!-- optional, prevents the submit button from being pressed more than once -->
+  <script>
+      var submitButton = document.getElementById("submit_form");
+      var form = document.getElementById("email_form");
+      form.addEventListener("submit", function (e) {
+          setTimeout(function() {
+              submitButton.value = "Sending...";
+              submitButton.disabled = true;
+          }, 1);
       });
-    });
-    return false;
-  })(this);">
-                                                            <header class="newsletter-form-header">
-                                                                <h2 class="newsletter-form-header-title">Subscribe</h2>
-                                                                <div class="newsletter-form-header-description">
-                                                                    <p>Sign up with your email address to receive news
-                                                                        and updates.</p>
-                                                                </div>
-                                                            </header>
-                                                            <div class="newsletter-form-body">
-                                                                <div class="newsletter-form-fields-wrapper form-fields"
-                                                                    style="vertical-align: middle;">
-
-
-
-                                                                    <div id="email-yui_3_17_2_1_1650490637846_11309"
-                                                                        class="newsletter-form-field-wrapper form-item field email required"
-                                                                        style="vertical-align: bottom;">
-                                                                        <label class="newsletter-form-field-label title"
-                                                                            for="email-yui_3_17_2_1_1650490637846_11309-field">Email
-                                                                            Address</label>
-                                                                        <input
-                                                                            id="email-yui_3_17_2_1_1650490637846_11309-field"
-                                                                            class="newsletter-form-field-element field-element"
-                                                                            name="email" x-autocompletetype="email"
-                                                                            autocomplete="email" type="email"
-                                                                            spellcheck="false"
-                                                                            placeholder="Email Address" />
-                                                                    </div>
-
-
-
-
-                                                                </div>
-                                                                <div data-animation-role="button"
-                                                                    class="newsletter-form-button-wrapper submit-wrapper"
-                                                                    style="vertical-align: middle;">
-                                                                    <button class="
-            newsletter-form-button
-            sqs-system-button
-            sqs-editable-button-layout
-            sqs-editable-button-style
-            sqs-editable-button-shape
-            sqs-button-element--primary
-          " type="submit" value="Sign Up">
-                                                                        <span
-                                                                            class="newsletter-form-spinner sqs-spin light large"></span>
-                                                                        <span class="newsletter-form-button-label">Sign
-                                                                            Up</span>
-                                                                        <span
-                                                                            class="newsletter-form-button-icon"></span>
-                                                                    </button>
-                                                                </div>
-
-                                                                <div class="model"></div>
-
-
-                                                            </div>
-                                                            <div class="newsletter-form-footnote">
-                                                                <p>We respect your privacy.</p>
-                                                            </div>
-                                                            <div class="hidden form-submission-text">Thank you!</div>
-                                                            <div class="hidden form-submission-html"
-                                                                data-submission-html=""></div>
-                                                        </form>
+  </script> 
                                                     </div>
                                                 </div>
                                             </div>
@@ -2461,7 +2434,7 @@
                                                     }
                                                 </style>
                                                 <nav class="sqs-svg-icon--list">
-                                                    <a href="http://www.instagram.com/unrulyagency/" target="_blank"
+                                                    <a href="http://www.instagram.com/thrive.models/" target="_blank"
                                                         class="sqs-svg-icon--wrapper instagram-unauth"
                                                         aria-label="Instagram">
                                                         <div>
@@ -2472,7 +2445,7 @@
                                                                     xlink:href="#instagram-unauth-mask"></use>
                                                             </svg>
                                                         </div>
-                                                    </a><a href="https://twitter.com/unrulyagency" target="_blank"
+                                                    </a><a href="https://twitter.com/thrive.models" target="_blank"
                                                         class="sqs-svg-icon--wrapper twitter-unauth"
                                                         aria-label="Twitter">
                                                         <div>
@@ -2483,7 +2456,7 @@
                                                                     xlink:href="#twitter-unauth-mask"></use>
                                                             </svg>
                                                         </div>
-                                                    </a><a href="https://www.tiktok.com/@unrulyagency" target="_blank"
+                                                    </a><a href="https://www.tiktok.com/@thrivemodels" target="_blank"
                                                         class="sqs-svg-icon--wrapper tiktok-unauth" aria-label="TikTok">
                                                         <div>
                                                             <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
@@ -2493,7 +2466,7 @@
                                                                     xlink:href="#tiktok-unauth-mask"></use>
                                                             </svg>
                                                         </div>
-                                                    </a><a href="http://facebook.com/unrulyagency" target="_blank"
+                                                    </a><a href="http://facebook.com/thrivemodels" target="_blank"
                                                         class="sqs-svg-icon--wrapper facebook-unauth"
                                                         aria-label="Facebook">
                                                         <div>
