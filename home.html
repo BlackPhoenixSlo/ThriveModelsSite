@@ -1933,14 +1933,18 @@ img{
       }
     }
     </style>
+
                     <div class="sqs-video---player background_video" loading="lazy"  >
                       <video id="background-video_second" loading="lazy" style="background: black; margin-bottom: -70px; background-image: url(pictures/mauntains.png); ;  background-repeat: no-repeat;
                       background-size: auto;"   class="video" autoplay="true" muted="true" playsinline autoplay loop muted>
                         <source src="videos/MauntainsBig.mp4" loading="lazy" type="video/mp4">
                         </video>
-                        <video id="background-video_second1phone"   loading="lazy" class="video" autoplay="true" muted="true" playsinline autoplay loop muted>
+                        
+                        <video id="background-video_second1phone"  style="position: absolute; top: 0; z-index: 1;" loading="lazy" class="video" autoplay="true" muted="true" playsinline autoplay loop muted>
                           <source src="videos/watterSmall.mp4" loading="lazy" type="video/mp4">
                           </video>
+                          <img id="background-video_second1phone" style="position: absolute; top: 0; z-index: 0;" src="pictures/watterSmall.png"> 
+
                     </div>
 
            <!--   <img alt=""
@@ -2435,12 +2439,14 @@ img{
           }
         }
         </style>
-                        <div class="sqs-video---player background_video" style="background-image: url(pictures/beach.png)">
+
+                        <div class="sqs-video---player background_video" style="z-index: 5 ;background-image: url(pictures/beach.png)">
                           <video loading="lazy" id="background-video_second" style="
                             position: relative;
                           " class="video" autoplay="true" muted="true" playsinline autoplay loop muted  style="background-image: url(pictures/mauntains.png)">
                             <source loading="lazy" src="videos/watterBig.mp4" type="video/mp4">
                             </video>
+                            
                             <video loading="lazy" id="background-video_second2"  class="video" autoplay="true" muted="true" playsinline autoplay loop muted  >
                               <source loading="lazy" src="videos/smallvid.mp4" type="video/mp4">
                               </video>
