@@ -4,7 +4,7 @@ https://thrivemodels.co/ourmodels/aavarenae/ava_ray.html
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
 # another path:
-/index2.html
+/index.html
   # headers for that path:
   X-Frame-Options: SAMEORIGIN
   
