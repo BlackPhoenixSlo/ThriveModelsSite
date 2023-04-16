@@ -1,0 +1,10 @@
+# a path:
+https://thrivemodels.co/ourmodels/aavarenae/ava_ray.html
+  # headers for that path:
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+# another path:
+/index2.html
+  # headers for that path:
+  X-Frame-Options: SAMEORIGIN
+  
