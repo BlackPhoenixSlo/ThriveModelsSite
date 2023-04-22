@@ -58,7 +58,8 @@ body {
   height: 99vh ;
   min-height: 580px;
   background-color: #f0f;
-  background-image: url("https://unrulyagency.be/_next/image?url=https%3A%2F%2Fentity-images.hoo.be%2Ftemplate-bg-image%2F5d4405dc-4128-434c-a3a7-39ce0f7ee9dd.webp%3Fv%3D1666885754307&w=1200&q=75");
+  background-image: url("back.png");
+  background-size: cover;
   box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 30px;
   position:relative;
